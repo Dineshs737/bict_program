@@ -3,9 +3,13 @@
 
 int main()
 {
-    const inches ;
+     int inches ;
+     const int inches_per_foot = 12;
 
-    printf("you shoud inches more than 12 inches :")
+    printf("you shoud inches more than 12 inches :");
+
+    scanf("%d",&inches);
+    
 
     return 0;
 }
